@@ -200,7 +200,7 @@ background-color: transparent; /* Set to the same color as the body background *
 }
 
 .community-card-textarea {
-    background-color: rgba(72, 81, 131, 0.67);
+    background-color: rgba(72, 81, 131, 0.65);
 }
 
 /* Popular cards */
@@ -210,7 +210,7 @@ background-color: transparent; /* Set to the same color as the body background *
 }
 
 .popular-card-textarea {
-    background-color: rgba(57, 61, 94, 0.8);
+    background-color: rgba(57, 61, 94, 0.7);
 }
 
 
@@ -221,7 +221,7 @@ background-color: transparent; /* Set to the same color as the body background *
 }
 
 .recent-add-card-textarea {
-    background-color: rgba(57, 61, 94, 0.7);
+    background-color: rgba(57, 61, 94, 0.65);
 }
 
 
