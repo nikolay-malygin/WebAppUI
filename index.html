@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web App UI</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous" defer></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font -->
+   <link rel="stylesheet" href="Fonts/WorkSans.css">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+
+            <!-- Left Sidebar -->
+            <aside id="sidebar-left" tabindex="-1" class="offcanvas offcanvas-start col-xl-3 px-0 min-vh-100">
+                <div class="offcanvas-body p-0">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <!-- "Sidebar" -->
+                            <div class="col-3 px-0">
+                                <section class="min-vh-100 px-0 sidebar">
+                                    <ul class="nav nav-pills flex-column align-items-center pt-2 gap-3">
+
+                                        <li class="nav-item mb-5">
+                                            <div class="nav-link px-0">
+                                                <img src="images/Logo.svg" class="rounded-circle" alt="Logo" width="50" height="50">
+                                            </div>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <div class="nav-link px-0">
+                                                <img src="images/Crystal.svg" class="rounded-circle" alt="Crystal" width="50">
+                                            </div>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <div class="nav-link px-0">
+                                                <img src="images/Meal.svg" class="rounded-circle" alt="Meal" width="50">
+                                            </div>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <div class="nav-link px-0">
+                                                <img src="images/bugatti.svg" class="rounded-circle" alt="Bugatti" width="50">
+                                            </div>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <div class="nav-link px-0">
+                                                <img src="images/Crystal2.svg" class="rounded-circle" alt="Crystal2" width="50">
+                                            </div>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <div class="nav-link rounded-circle px-0">
+                                                <img src="images/lamborghini_1.svg" class="rounded-circle" alt="Lamborghini" width="50">
+                                            </div>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <div class="nav-link px-0">
+                                                <img src="images/Explore.svg" class="rounded-circle" alt="Explore" width="65">
+                                            </div>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <div class="nav-link rounded-circle sidebar-link px-0">
+                                                <span class="material-symbols-rounded align-bottom p-2 fs-2">add</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </section>
+                            </div>
+
+                            <!-- "Categories" -->
+                            <div class="col-9 px-0 categories">
+                                <section class="min-vh-100 px-0">
+                                    <div class="position-sticky top-0">
+
+                                        <header class="px-3 py-3 fw-medium fs-5">
+                                            Explore
+                                        </header>
+                                        <hr class="mt-0">
+
+                                        <ul class="nav nav-pills flex-column px-3 pt-3 gap-2">
+
+                                            <li class="nav-item rounded">
+                                                <div class="nav-link category-link">
+                                                    <span class="material-symbols-rounded align-bottom fw-light">home</span>
+                                                    Home
+                                                </div>
+                                            </li>
+
+                                            <li class="nav-item rounded">
+                                                <div class="nav-link category-link">
+                                                    <span class="material-symbols-rounded align-bottom fw-light">music_note</span>
+                                                    Music
+                                                </div>
+                                            </li>
+
+                                            <li class="nav-item rounded">
+                                                <div class="nav-link category-link">
+                                                    <span class="material-symbols-rounded align-bottom fw-light">sports_esports</span>
+                                                    Gaming
+                                                </div>
+                                            </li>
+
+                                            <li class="nav-item rounded">
+                                                <div class="nav-link category-link">
+                                                    <span class="material-symbols-rounded align-bottom fw-light">school</span>
+                                                    Education
+                                                </div>
+                                            </li>
+
+                                            <li class="nav-item rounded">
+                                                <div class="nav-link category-link">
+                                                    <span class="material-symbols-rounded align-bottom fw-light">sports_volleyball</span>
+                                                    Science & Tech
+                                                </div>
+                                            </li>
+
+                                            <li class="nav-item rounded">
+                                                <div class="nav-link category-link">
+                                                    <span class="material-symbols-rounded align-bottom fw-light">play_circle</span>
+                                                    Entertainment
+                                                </div>
+                                            </li>
+
+                                            <li class="nav-item rounded">
+                                                <div class="nav-link category-link">
+                                                    <span class="material-symbols-rounded align-bottom fw-light">group</span>
+                                                    Student Hubs
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </section>
+                            </div>
+
+                        </div> <!-- ./row -->
+                    </div>
+                </div> <!-- ./offcanvas-body -->
+            </aside>
+
+
+            <!-- Main Content -->
+            <main class="col-12 col-lg-9 col-xl-7 min-vh-100 main-content ms-xl-auto px-0 pb-4">
+                <div class="container-fluid">
+
+                    <!-- Search field -->
+                    <div class="position-sticky top-0 z-3">
+                        <header class="row main-header justify-content-center pt-2">
+
+                            <!-- Left sidebar toggle-button -->
+                            <div class="col-2 px-0 text-center">
+                                <button class="btn bg-transparent border d-xl-none" data-bs-toggle="offcanvas" data-bs-target="#sidebar-left">
+                                    <span class="material-symbols-rounded align-bottom">menu</span>
+                                </button>
+                            </div>
+
+                            <div class="col-8">
+                                <div class="input-group mb-3">
+                                    <input class="form-control main-search" type="search" placeholder="Explore...">
+                                </div>
+                            </div>
+
+                            <!-- Right sidebar toggle-button -->
+                            <div class="col-2 px-0 text-center">
+                                <button class="btn bg-transparent border d-lg-none" data-bs-toggle="offcanvas" data-bs-target="#sidebar-right">
+                                    <span class="material-symbols-rounded align-bottom">menu</span>
+                                </button>
+                            </div>
+                        </header>
+                    </div>
+
+                    <!-- Banner -->
+                    <section class="row mx-3 mt-5 position-relative overflow-hidden rounded-5">
+                        <img src="images/banner.svg" class="px-0 position-absolute" style="top: -115%;" alt="banner_image">
+
+                        <div class="col-12 py-5 text-center z-1">
+                            <p class="fs-4 fw-bold">Find your Community</p>
+                            <p class="fs-4 fw-bold">on Daccord</p>
+                        </div>
+                    </section>
+
+                    <!-- Featured Community -->
+                    <section class="row mx-3 mt-5 gy-4 justify-content-center">
+
+                        <!-- Featured Community label -->
+                        <div class="col-12 d-flex justify-content-between">
+                            <span class="fs-4 fw-bold">Featured Community</span>
+                            <span class="btn btn-see-all pt-2 text-muted">See all</span>
+                        </div>
+
+                        <!-- Featured Community cards -->
+                        <div class="col-12 col-md-6">
+                            <div class="card popular-card-bg content-card rounded-5">
+                                <img src="images/futuristic_soldier.svg" class="card-img rounded-5">
+
+                                <div class="card-img-overlay community-card-textarea rounded-5">
+                                    <h5 class="card-title fs-4 fw-bold">Virtual Reality</h5>
+                                    <p class="card-text">A community for VR and novices alike, regular and friendly chat.</p>
+
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <span class="material-symbols-rounded align-bottom fw-light">online_prediction</span>
+                                            5,678 Online
+                                        </div>
+
+                                        <div>
+                                            <span class="material-symbols-rounded align-bottom fw-light">account_circle</span>
+                                            345,678 Members
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6">
+                            <div class="card popular-card-bg content-card rounded-5">
+                                <img src="images/viking_king.svg" class="card-img rounded-5">
+
+                                <div class="card-img-overlay community-card-textarea rounded-5">
+                                    <h5 class="card-title fs-4 fw-bold">Game Play</h5>
+                                    <p class="card-text">Always a new challenge. Great place to make new friends.</p>
+
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <span class="material-symbols-rounded align-bottom fw-light">online_prediction</span>
+                                            28,789 Online
+                                        </div>
+
+                                        <div>
+                                            <span class="material-symbols-rounded align-bottom fw-light">account_circle</span>
+                                            <span>527,955 Members</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </section>
+
+
+                    <!-- Popular Right Now Label -->
+                    <section class="row mx-3 mt-5">
+                        <div class="col-12 d-flex justify-content-between">
+                            <span class="fs-4 fw-bold">Popular Right Now</span>
+                            <span class="btn btn-see-all pt-2 text-muted">See all</span>
+                        </div>
+                    </section>
+
+                    <!-- Popular Right Now Cards -->
+                    <section class="row mx-3 mt-0 gy-4 justify-content-center">
+
+                        <div class="col-12 col-md-6">
+                            <div class="card popular-card-bg content-card rounded-5">
+                                <img src="images/batman.svg" class="card-img rounded-5">
+
+                                <div class="card-img-overlay popular-card-textarea rounded-5">
+                                    <h5 class="card-title fs-4 fw-bold">3D Art</h5>
+                                    <p class="card-text">A great place to discuss art.</p>
+
+                                    <div>
+                                        <span class="material-symbols-rounded align-bottom">account_circle</span>
+                                        <span>345,678 Members</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6">
+                            <div class="card popular-card-bg content-card rounded-5">
+                                <img src="images/art.svg" class="card-img rounded-5">
+
+                                <div class="card-img-overlay popular-card-textarea rounded-5">
+                                    <h5 class="card-title fs-4 fw-bold">NFT</h5>
+                                    <p class="card-text">An NFT community so that everyone can share their NFTs.</p>
+
+                                    <div>
+                                        <span class="material-symbols-rounded align-bottom">account_circle</span>
+                                        <span>887,578 Members</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </section>
+
+
+                    <!-- Recent Add Label -->
+                    <section class="row mx-3 mt-5">
+                        <div class="col-12 d-flex justify-content-between">
+                            <span class="fs-4 fw-bold">Recent Add</span>
+                            <span class="btn btn-see-all pt-2 text-muted">See all</span>
+                        </div>
+                    </section>
+
+                    <!-- Recent Add cards -->
+                    <section class="row mt-0 mx-3 gy-4 justify-content-center">
+
+                        <div class="col-12 col-md-4">
+                            <div class="card recent-add-card-bg content-card rounded-5">
+                                <img src="images/ironman_poster.svg" class="card-img rounded-5">
+
+                                <div class="card-img-overlay recent-add-card-textarea rounded-5">
+                                    <h5 class="card-title fs-4 fw-bold">Movie Recapped</h5>
+                                    <p class="card-text">Discuss your favourite movies and TV series here.</p>
+
+                                    <div>
+                                        <span class="material-symbols-rounded align-bottom fw-light">account_circle</span>
+                                        <span>405,988 Members</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-4">
+                            <div class="card recent-add-card-bg content-card rounded-5">
+                                <img src="images/science.svg" class="card-img rounded-5">
+
+                                <div class="card-img-overlay recent-add-card-textarea rounded-5">
+                                    <h5 class="card-title fs-4 fw-bold">Science</h5>
+                                    <p class="card-text">A community for a scientific exploration enthusiast.</p>
+
+                                    <div>
+                                        <span class="material-symbols-rounded align-bottom fw-light">account_circle</span>
+                                        <span>56 Members</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-4">
+                            <div class="card recent-add-card-bg content-card rounded-5">
+                                <img src="images/neon_space.svg" class="card-img rounded-5">
+
+                                <div class="card-img-overlay recent-add-card-textarea rounded-5">
+                                    <h5 class="card-title fs-4 fw-bold">Space</h5>
+                                    <p class="card-text">A community for the space enthusiast.</p>
+
+                                    <div>
+                                        <span class="material-symbols-rounded align-bottom fw-light">account_circle</span>
+                                        <span>209 Members</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-4">
+                            <div class="card recent-add-card-bg content-card rounded-5">
+                                <img src="images/freddy_krueger.svg" class="card-img rounded-5">
+
+                                <div class="card-img-overlay recent-add-card-textarea rounded-5">
+                                    <h5 class="card-title fs-4 fw-bold">Horror Stories</h5>
+                                    <p class="card-text">Dive into the world of fear and share terrifying tales.</p>
+
+                                    <div>
+                                        <span class="material-symbols-rounded align-bottom fw-light">account_circle</span>
+                                        <span>245,789 Members</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </section>
+                </div>
+            </main>
+
+
+            <!-- Right Sidebar ("Inspector") -->
+            <aside id="sidebar-right" tabindex="-1" class="offcanvas offcanvas-end col-lg-3 col-xl-2 px-0">
+                <div class="offcanvas-body overflow-x-hidden p-0">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12 px-0">
+
+                                <!-- "Inspector" -->
+                                <section class="min-vh-100 inspector">
+                                    <div class="container-fluid px-0">
+
+                                        <!-- Header Buttons -->
+                                        <div class="position-sticky top-0 inspector border-0">
+                                            <header class="row">
+                                                <div class="col-12 fw-medium">
+                                                    <ul class="nav nav-pills pt-2 pb-1 d-flex justify-content-around">
+
+                                                        <li class="nav-item rounded">
+                                                            <div class="nav-link inspector-link">
+                                                                <span class="material-symbols-rounded align-bottom fw-light">badge</span>
+                                                            </div>
+                                                        </li>
+
+                                                        <li class="nav-item rounded">
+                                                            <div class="nav-link inspector-link">
+                                                                <span class="material-symbols-rounded align-bottom fw-light">notifications</span>
+                                                            </div>
+                                                        </li>
+
+                                                        <li class="nav-item rounded">
+                                                            <div class="nav-link inspector-link">
+                                                                <span class="material-symbols-rounded align-bottom fw-light">sms</span>
+                                                            </div>
+                                                        </li>
+
+                                                        <li class="nav-item rounded">
+                                                            <div class="nav-link inspector-link">
+                                                                <span class="material-symbols-rounded align-bottom fw-light">settings</span>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </header>
+
+                                            <hr class="mt-2">
+                                        </div>
+
+
+                                        <!-- Account Info -->
+                                        <section class="row">
+                                            <div class="col-12 text-center">
+
+                                                <div class="py-3 px-0">
+                                                    <img src="images/User_profil.svg" class="rounded-circle" alt="user" width="124" height="124">
+                                                    <p class="fw-bold fs-5 mt-4 mb-1">Sophie Fortune</p>
+                                                    <p class="text-muted fw-bold">@sophiefortune</p>
+                                                </div>
+
+                                            </div>
+                                        </section>
+
+
+                                        <!-- New Members label -->
+                                        <section class="row mx-1">
+                                            <div class="col-12 d-flex justify-content-between align-items-center">
+                                                <span class="fw-bold">New Members</span>
+                                                <span class="btn btn-see-all text-muted">See all</span>
+                                            </div>
+                                        </section>
+
+                                        <!-- New Members list -->
+                                        <section class="row mx-1">
+                                            <div class="col-12 d-flex">
+
+                                                <ul class="nav nav-pills w-100 flex-column pt-3 gap-2">
+
+                                                    <li class="nav-item rounded">
+                                                        <div class="nav-link member-link d-flex flex-row gap-3 align-items-center">
+                                                            <img src="images/cute_girl.svg" alt="user" width="44" height="44" class="rounded-circle">
+
+                                                            <div class="d-flex flex-column">
+                                                                <span class="fw-bold">Anne Couture</span>
+                                                                <span class="text-muted">5 min ago</span>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                    <li class="nav-item rounded">
+                                                        <div class="nav-link member-link d-flex flex-row gap-3 align-items-center">
+                                                            <img src="images/hollow_face.svg" alt="user" width="44" height="44" class="rounded-circle">
+
+                                                            <div class="d-flex flex-column">
+                                                                <span class="fw-bold">Miriam Soleil</span>
+                                                                <span class="text-muted">20 min ago</span>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                    <li class="nav-item rounded">
+                                                        <div class="nav-link member-link d-flex flex-row gap-3 align-items-center">
+                                                            <img src="images/female_avatar.svg" alt="user" width="44" height="44" class="rounded-circle">
+
+                                                            <div class="d-flex flex-column">
+                                                                <span class="fw-bold">Marie Laval</span>
+                                                                <span class="text-muted">35 min ago</span>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                    <li class="nav-item rounded">
+                                                        <div class="nav-link member-link d-flex flex-row gap-3 align-items-center">
+                                                            <img src="images/supercar.svg" alt="user" width="44" height="44" class="rounded-circle">
+
+                                                            <div class="d-flex flex-column">
+                                                                <span class="fw-bold">Mark Morain</span>
+                                                                <span class="text-muted">40 min ago</span>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </section>
+
+
+                                        <!-- Recent Activity label -->
+                                        <section class="row mx-1 mt-4">
+                                            <div class="col-12 d-flex justify-content-between align-items-center">
+                                                <span class="fw-bold">Recent Activity</span>
+                                                <span class="btn btn-see-all text-muted">See all</span>
+                                            </div>
+                                        </section>
+
+                                        <!-- Recent Activity list -->
+                                        <section class="row pb-3 mx-1">
+                                            <div class="col-12 d-flex">
+
+                                                <ul class="nav nav-pills w-100 flex-column justify-content-start pt-3 gap-2">
+
+                                                    <li class="nav-item rounded">
+                                                        <div class="nav-link member-link d-flex flex-row gap-3 align-items-center">
+                                                            <img src="images/cute_girl.svg" alt="user" width="44" height="44" class="rounded-circle">
+
+                                                            <div class="d-flex flex-column">
+                                                                <span class="fw-bold">Anne Couture <span class="text-muted">invited you to a channel</span></span>
+                                                                <span class="text-muted">5 min ago</span>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                    <li class="nav-item rounded">
+                                                        <div class="nav-link member-link d-flex flex-row gap-3 align-items-center">
+                                                            <img src="images/hollow_face.svg" alt="user" width="44" height="44" class="rounded-circle">
+
+                                                            <div class="d-flex flex-column">
+                                                                <span class="fw-bold">Miriam Soleil <span class="text-muted">invited you to a chat</span></span>
+                                                                <span class="text-muted">20 min ago</span>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                    <li class="nav-item rounded">
+                                                        <div class="nav-link member-link d-flex flex-row gap-3 align-items-center">
+                                                            <img src="images/female_avatar_2.svg" alt="user" width="44" height="44" class="rounded-circle">
+
+                                                            <div class="d-flex flex-column">
+                                                                <span class="fw-bold">Marie Laval <span class="text-muted">started following you</span></span>
+                                                                <span class="text-muted">35 min ago</span>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                    <li class="nav-item rounded">
+                                                        <div class="nav-link member-link d-flex flex-row gap-3 align-items-center">
+                                                            <img src="images/supercar.svg" alt="user" width="44" height="44" class="rounded-circle">
+
+                                                            <div class="d-flex flex-column">
+                                                                <span class="fw-bold">Mark Morain <span class="text-muted">accepted your friend request</span></span>
+                                                                <span class="text-muted">40 min ago</span>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </section>
+
+                                    </div>
+                                </section>
+                            </div>
+                        </div> <!-- ./row -->
+                    </div>
+                </div> <!-- ./offcanvas-body -->
+            </aside>
+
+        </div> <!-- ./row -->
+    </div> <!-- ./container-fluid -->
+</body>
+
+</html>
